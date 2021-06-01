@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Header.js";
+import Countries from "./Countries.js";
 
 
 
@@ -8,8 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      {/* <CountryCardsBody /> */}
+      <Countries />
     </div>
   );
 }

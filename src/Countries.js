@@ -4,7 +4,7 @@ import Container from "react-bootstrap/esm/Container";
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card'
 import Form from 'react-bootstrap/Form'
-import "./Header.css";
+import "./Countries.css";
 
 
 const CONTINENTS = gql`
