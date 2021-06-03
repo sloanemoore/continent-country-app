@@ -8,7 +8,7 @@ import { ApolloProvider } from '@apollo/client/react';
 
 
 const client = new ApolloClient({
-  uri: 'http://countries.trevorblades.com/',
+  uri: 'https://countries.trevorblades.com/',
   cache: new InMemoryCache(),
 });
 
