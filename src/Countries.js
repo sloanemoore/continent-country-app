@@ -34,8 +34,8 @@ const COUNTRIES = gql`
 
 
 export default function Header(props) {
-  const [selectedContinent, setSelectedContinent] = useState("AS");
-  const [selectedContinentName, setSelectedContinentName] = useState("Asia");
+  const [selectedContinent, setSelectedContinent] = useState("AF");
+  const [selectedContinentName, setSelectedContinentName] = useState("Africa");
 
 
   function SelectContinentDropdown() {
